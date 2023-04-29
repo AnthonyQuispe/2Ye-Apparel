@@ -1,0 +1,39 @@
+::-moz-selection {
+  background: #feae2e;
+}
+
+::selection {
+  background: #feae2e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: "LemonMilk", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: LemonMilk-light;
+  src: url(../assets/fonts/LEMONMILK-Light.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: LemonMilk;
+  src: url(../assets/fonts/LEMONMILK-Medium.otf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: LemonMilk-Italic;
+  src: url(../assets/fonts/LEMONMILK-MediumItalic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: LemonMilk-Bold;
+  src: url(../assets/fonts/LEMONMILK-Bold.otf);
+  font-weight: 600;
+}/*# sourceMappingURL=global.css.map */
